@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Us</title>
 </head>
-<body>
+<body style="background-color: beige; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">
     <div style="color:lightseagreen ;border: 2px solid lightseagreen; padding: 22px; margin: 20px;">
         <h1>Contact Us!</h1>
     </div>
@@ -23,12 +23,13 @@
                 minlength="9"
                 maxlength="10"
                 required><br>
-        <label for="timeOfContact">Prefered time to contact you</label><br>
+        <label for="timeOfContact" style="padding-right: 10px;">Prefered time to contact you</label>
         <input type="time" id="timeOfContact" name="timeOfContact"
                 min="08:00"
-                max="17:00"
-                required><br>
-        <input type="submit" style="padding: 5px; margin: 20px"><br>
+                max="17:00"><br>
+        <label for="age" style="margin-right: 10px;">I'm above the age of 18</label>
+        <input type="checkbox" name="age" id="age" required><br>
+        <input type="submit" style="padding: px; margin: 50px"><br>
     </form>
     <nav>
         <ul>
