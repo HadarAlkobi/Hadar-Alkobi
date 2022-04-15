@@ -1,2 +1,2 @@
 # Hadar-Alkobi
-Personal Exercises Web Course
+Web Course - Personal Exercises 
