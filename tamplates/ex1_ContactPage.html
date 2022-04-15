@@ -6,11 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Us</title>
 </head>
-<body style="background-color: beige; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">
-    <div style="color:lightseagreen ;border: 2px solid lightseagreen; padding: 22px; margin: 20px;">
-        <h1>Contact Us!</h1>
+<body style="background-color: beige;
+            text-align: center;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">
+    <div style="color:lightseagreen; 
+                border: 2px solid lightseagreen; 
+                padding: 10px; margin: 20px;">
+        <h1 style="font-size: 50px;">Contact Us!</h1>
     </div>
-    <span style="padding: 5px; margin: 20px">Please leave your information and we will contact you soon!</span>
+    <span style="padding: 5px; margin: 20px; font-size: 20px;">Please leave your information and we will contact you soon!</span>
     <form action="URL" method="get" style="padding: 5px; margin: 20px"> 
         <label for="FullName">Full Name</label><br>
         <input type="text" id="FullName" name="FullName" 
@@ -22,11 +26,11 @@
         <input type="tel" id="PhoneNumber" name="PhoneNumber" 
                 minlength="9"
                 maxlength="10"
-                required><br>
+                required><br><br>
         <label for="timeOfContact" style="padding-right: 10px;">Prefered time to contact you</label>
         <input type="time" id="timeOfContact" name="timeOfContact"
                 min="08:00"
-                max="17:00"><br>
+                max="17:00"><br><br>
         <label for="age" style="margin-right: 10px;">I'm above the age of 18</label>
         <input type="checkbox" name="age" id="age" required><br>
         <input type="submit" style="padding: px; margin: 50px"><br>
