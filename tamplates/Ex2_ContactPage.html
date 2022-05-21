@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../static/Ex2_CSS.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Maven+Pro&display=swap" rel="stylesheet">
+    <script defer src="../static/newEx2_JS.js"></script>
+    <title>Contact Us</title>
+</head>
+<body>  
+    <div id="container" class="header">
+        <img src="../static/newLogo.jpg" id="Logo">
+        <h1 id="pageHeader" class="header">BGU Winery</h1>
+      </div>
+
+    <div class="contactPageContainer">        
+        <div id="NavBar">
+            <a href="Ex2_HomePage.html">Home</a>
+            <a href="AboutUs.html">About Us</a>
+            <a href="Booking.html">Reservations</a>
+            <a href="Wine.html">Our Wine</a>
+            <a href="Ex2_ContactPage.html">Contact Us</a>
+        </div>
+        
+        <div id="formContainer">
+            <div id="contactContainer" class="header">
+                <h1 id="contactHeader" class="header">Contact Us!</h1>
+            </div>
+            <span class="form">Please leave your information and we will contact you soon!</span><br><br>
+            <form action="URL" method="get" class="form"> 
+                <label for="FullName">Full Name</label><br>
+                <input type="text" id="FullName" name="FullName" autocomplete="on" required><br>
+                <label for="Email">Email</label><br>
+                <input type="email" id="Email" name="Email" required><br>
+                <label for="PhoneNumber">Phone Number</label><br>
+                <input type="tel" id="PhoneNumber" name="PhoneNumber" minlength="9" maxlength="10" required><br><br>
+                <label for="timeOfContact">Prefered time to contact you</label> <br><br>
+                <input type="time" id="timeOfContact" name="timeOfContact" min="08:00" max="17:00"><br><br>
+                <label for="age">I'm above the age of 18</label>
+                <input type="checkbox" name="age" id="age" required><br><br>
+                <input type="submit"><br><br>
+            </form>
+        </div>
+        <div id="contactInformation"><br>
+            <h3>Our Informaition:</h3>
+            <i>BGU-Winery@gmail.com</i><br><br>
+            <i>tel: 052-1122334</i><br><br>
+        </div>
+        <div id="mediaRef">
+            <img onmouseover="bigImg(this)" onmouseout="normalImg(this)" border="0" src="../static/white2.jpg" alt="whity" width=80% height=80%></img>
+        </div>
+        <div  id="SideBar" class="sidenav">
+            <a href="#">Events</a>
+            <a href="#">Menus</a>
+            <a href="#">Special Offers</a>
+            <a href="#">Join The Club</a>
+        </div>
+    </div>
+</body>
+</html>
